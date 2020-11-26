@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  version = '>= 4.1', '< 5.0'
+  version = '>= 4.0', '< 5.0'
   s.add_dependency 'deface'
   s.add_dependency 'spree', version
   s.add_dependency 'spree_extension'
